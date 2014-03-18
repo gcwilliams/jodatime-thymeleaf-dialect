@@ -12,7 +12,7 @@ Via attributes
 
 #### Example configuration for Spring MVC
     
-`<bean id="templateEngine" class="org.thymeleaf.spring3.SpringTemplateEngine">
+```<bean id="templateEngine" class="org.thymeleaf.spring3.SpringTemplateEngine">
   ...
   <property name="dialects">
       <set>
@@ -21,4 +21,4 @@ Via attributes
       </set>
   </property>
   ...
-</bean>`
+</bean>```
