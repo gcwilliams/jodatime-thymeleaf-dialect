@@ -17,7 +17,7 @@ public class JodaTimeFormatProcessorTest extends AbstractJodaTimeDialectTest {
     @Test
     public void test_full_date() {
         // arrange
-        setTemplate("<span jt:fullDate=\"${date}\"></span>");
+        setTemplate("<span joda:fullDate=\"${date}\"></span>");
         Map<String, Object> variables = createVariables();
 
         // act
@@ -30,7 +30,7 @@ public class JodaTimeFormatProcessorTest extends AbstractJodaTimeDialectTest {
     @Test
     public void test_full_date_time() {
         // arrange
-        setTemplate("<span jt:fullDateTime=\"${date}\"></span>");
+        setTemplate("<span joda:fullDateTime=\"${date}\"></span>");
         Map<String, Object> variables = createVariables();
 
         // act
@@ -43,7 +43,7 @@ public class JodaTimeFormatProcessorTest extends AbstractJodaTimeDialectTest {
     @Test
     public void test_full_time() {
         // arrange
-        setTemplate("<span jt:fullTime=\"${date}\"></span>");
+        setTemplate("<span joda:fullTime=\"${date}\"></span>");
         Map<String, Object> variables = createVariables();
 
         // act
@@ -56,7 +56,7 @@ public class JodaTimeFormatProcessorTest extends AbstractJodaTimeDialectTest {
     @Test
     public void test_long_date() {
         // arrange
-        setTemplate("<span jt:longDate=\"${date}\"></span>");
+        setTemplate("<span joda:longDate=\"${date}\"></span>");
         Map<String, Object> variables = createVariables();
 
         // act
@@ -69,7 +69,7 @@ public class JodaTimeFormatProcessorTest extends AbstractJodaTimeDialectTest {
     @Test
     public void test_long_date_time() {
         // arrange
-        setTemplate("<span jt:longDateTime=\"${date}\"></span>");
+        setTemplate("<span joda:longDateTime=\"${date}\"></span>");
         Map<String, Object> variables = createVariables();
 
         // act
@@ -82,7 +82,7 @@ public class JodaTimeFormatProcessorTest extends AbstractJodaTimeDialectTest {
     @Test
     public void test_long_time() {
         // arrange
-        setTemplate("<span jt:longTime=\"${date}\"></span>");
+        setTemplate("<span joda:longTime=\"${date}\"></span>");
         Map<String, Object> variables = createVariables();
 
         // act
@@ -95,7 +95,7 @@ public class JodaTimeFormatProcessorTest extends AbstractJodaTimeDialectTest {
     @Test
     public void test_medium_date() {
         // arrange
-        setTemplate("<span jt:mediumDate=\"${date}\"></span>");
+        setTemplate("<span joda:mediumDate=\"${date}\"></span>");
         Map<String, Object> variables = createVariables();
 
         // act
@@ -108,7 +108,7 @@ public class JodaTimeFormatProcessorTest extends AbstractJodaTimeDialectTest {
     @Test
     public void test_medium_date_time() {
         // arrange
-        setTemplate("<span jt:mediumDateTime=\"${date}\"></span>");
+        setTemplate("<span joda:mediumDateTime=\"${date}\"></span>");
         Map<String, Object> variables = createVariables();
 
         // act
@@ -121,7 +121,7 @@ public class JodaTimeFormatProcessorTest extends AbstractJodaTimeDialectTest {
     @Test
     public void test_medium_time() {
         // arrange
-        setTemplate("<span jt:mediumTime=\"${date}\"></span>");
+        setTemplate("<span joda:mediumTime=\"${date}\"></span>");
         Map<String, Object> variables = createVariables();
 
         // act
@@ -134,7 +134,7 @@ public class JodaTimeFormatProcessorTest extends AbstractJodaTimeDialectTest {
     @Test
     public void test_short_date() {
         // arrange
-        setTemplate("<span jt:shortDate=\"${date}\"></span>");
+        setTemplate("<span joda:shortDate=\"${date}\"></span>");
         Map<String, Object> variables = createVariables();
 
         // act
@@ -147,7 +147,7 @@ public class JodaTimeFormatProcessorTest extends AbstractJodaTimeDialectTest {
     @Test
     public void test_short_date_time() {
         // arrange
-        setTemplate("<span jt:shortDateTime=\"${date}\"></span>");
+        setTemplate("<span joda:shortDateTime=\"${date}\"></span>");
         Map<String, Object> variables = createVariables();
 
         // act
@@ -160,7 +160,7 @@ public class JodaTimeFormatProcessorTest extends AbstractJodaTimeDialectTest {
     @Test
     public void test_short_time() {
         // arrange
-        setTemplate("<span jt:shortDate=\"${date}\"></span>");
+        setTemplate("<span joda:shortDate=\"${date}\"></span>");
         Map<String, Object> variables = createVariables();
 
         // act
@@ -173,7 +173,7 @@ public class JodaTimeFormatProcessorTest extends AbstractJodaTimeDialectTest {
     @Test
     public void test_iso_date_time() {
         // arrange
-        setTemplate("<span jt:isoDateTime=\"${date}\"></span>");
+        setTemplate("<span joda:isoDateTime=\"${date}\"></span>");
         Map<String, Object> variables = createVariables();
 
         // act

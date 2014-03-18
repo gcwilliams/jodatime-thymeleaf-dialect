@@ -20,9 +20,7 @@ import org.thymeleaf.processor.IProcessor;
  *
  */
 public class JodaTimeDialect extends AbstractDialect implements IExpressionEnhancingDialect {
-
-    private static final String JT = "jt";
-
+	
     public static final String JODA = "joda";
 
     /*
@@ -31,7 +29,7 @@ public class JodaTimeDialect extends AbstractDialect implements IExpressionEnhan
      */
     @Override
     public String getPrefix() {
-       return JT;
+       return JODA;
     }
 
     /*
