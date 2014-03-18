@@ -45,7 +45,7 @@ plus any valid JodaTime format with
 
     ${#joda.format(date, ...)}
 
-Attribute
+Attributes
 
     joda:fullDate="${date}"
     joda:fullDateTime="${date}"
