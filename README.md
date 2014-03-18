@@ -1,6 +1,6 @@
 ## JodaTime ThymeLeaf Dialect
 
-#### Usage
+#### Basic usage
 
 Expression syntax with standard dialect
 
@@ -22,3 +22,41 @@ Via attributes
       </property>
       ...
     </bean>
+
+#### Supported formats
+
+Expression Syntax
+
+    ${#joda.fullDate(date)}
+    ${#joda.fullDateTime(date)}
+    ${#joda.fullTime(date)}
+    ${#joda.longDate(date)}
+    ${#joda.longDateTime(date)}
+    ${#joda.longTime(date)}
+    ${#joda.mediumDate(date)}
+    ${#joda.mediumDateTime(date)}
+    ${#joda.mediumTime(date)}
+    ${#joda.shortDate(date)}
+    ${#joda.shortDateTime(date)}
+    ${#joda.shortTime(date)}
+    ${#joda.isoDateTime(date)}
+
+plus any valid JodaTime format with 
+
+    ${#joda.format(date, ...)}
+
+Attribute
+
+    joda:fullDate="${date}"
+    joda:fullDateTime="${date}"
+    joda:fullTime="${date}"
+    joda:longDate="${date}"
+    joda:longDateTime="${date}"
+    joda:longTime="${date}"
+    joda:mediumDate="${date}"
+    joda:mediumDateTime="${date}"
+    joda:mediumTime="${date}"
+    joda:shortDate="${date}"
+    joda:shortDateTime="${date}"
+    joda:shortTime="${date}"
+    joda:isoDateTime="${date}"
