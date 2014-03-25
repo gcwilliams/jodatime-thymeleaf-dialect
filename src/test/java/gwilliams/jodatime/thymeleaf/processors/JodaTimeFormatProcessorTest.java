@@ -1,11 +1,13 @@
 package gwilliams.jodatime.thymeleaf.processors;
 
 import gwilliams.jodatime.thymeleaf.AbstractJodaTimeDialectTest;
+
 import org.joda.time.DateTime;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 
 /**
@@ -181,6 +183,19 @@ public class JodaTimeFormatProcessorTest extends AbstractJodaTimeDialectTest {
 
         // assert
         Assert.assertTrue(result.equals("<span>2011-01-15T10:30:00.000Z</span>"));
+    }
+    
+    @Test
+    public void test_full_date_time_french() {
+        // arrange
+        setTemplate("<span joda:fullDateTime=\"${date}\"></span>");
+        Map<String, Object> variables = createVariables();
+
+        // act
+        String result = process(variables, Locale.FRANCE);
+
+        // assert
+        Assert.assertTrue(result.equals("<span>samedi 15 janvier 2011 10 h 30 GMT</span>"));
     }
 
     /**

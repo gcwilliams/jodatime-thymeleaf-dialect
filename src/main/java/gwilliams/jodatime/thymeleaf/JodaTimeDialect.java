@@ -62,7 +62,7 @@ public class JodaTimeDialect extends AbstractDialect implements IExpressionEnhan
     @Override
     public Map<String, Object> getAdditionalExpressionObjects(IProcessingContext processingContext) {
         Map<String, Object> expressionObjects = new HashMap<String, Object>();
-        expressionObjects.put(JODA, new JodaTimeExpressionObject());
+        expressionObjects.put(JODA, new JodaTimeExpressionObject(processingContext.getContext().getLocale()));
         return expressionObjects;
     }
 }

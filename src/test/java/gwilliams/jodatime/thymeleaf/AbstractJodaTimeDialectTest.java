@@ -29,13 +29,24 @@ public abstract class AbstractJodaTimeDialectTest {
     }
 
     /**
-     * Processes the current template using the variables specified
+     * Processes the current template using the variables specified in UK locale
      * 
-     * @param variables The varables
+     * @param variables The variables
      * @return The processed template
      */
     protected String process(Map<String, Object> variables) {
-        return engine.process("ignored", new Context(Locale.getDefault(), variables));
+    	return process(variables, Locale.UK);
+    }
+    
+    /**
+     * Processes the current template using the variables specified
+     * 
+     * @param variables The variables
+     * @param locale The locale to use
+     * @return The processed template
+     */
+    protected String process(Map<String, Object> variables, Locale locale) {
+        return engine.process("ignored", new Context(locale, variables));
     }
 
     /**

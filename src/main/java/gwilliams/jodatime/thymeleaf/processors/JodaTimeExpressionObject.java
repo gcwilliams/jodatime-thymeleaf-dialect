@@ -1,5 +1,7 @@
 package gwilliams.jodatime.thymeleaf.processors;
 
+import java.util.Locale;
+
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
@@ -11,6 +13,17 @@ import org.joda.time.format.ISODateTimeFormat;
  */
 public class JodaTimeExpressionObject {
 
+	private final Locale locale;
+	
+	/**
+	 * Default constructor
+	 * 
+	 * @param locale The current locale
+	 */
+	public JodaTimeExpressionObject(Locale locale) {
+		this.locale = locale;
+	}
+	
     /**
      * Formats the datetime with a JodaTime full date format
      *
@@ -159,6 +172,6 @@ public class JodaTimeExpressionObject {
      * @return The formatted date
      */
     private String format(DateTime dateTime, DateTimeFormatter formatter) {
-        return formatter.print(dateTime);
+        return formatter.withLocale(locale).print(dateTime);
     }
 }

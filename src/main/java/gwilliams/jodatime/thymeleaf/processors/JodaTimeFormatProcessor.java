@@ -55,7 +55,9 @@ public class JodaTimeFormatProcessor extends AbstractTextChildModifierAttrProces
         final IStandardExpression expression = parser.parseExpression(configuration, arguments, attributeValue);
 
         Object result = expression.execute(configuration, arguments);
+        
+        DateTimeFormatter localFormatter = formatter.withLocale(arguments.getContext().getLocale());
 
-        return result instanceof DateTime ? formatter.print((DateTime) result) : EMPTY;
+        return result instanceof DateTime ? localFormatter.print((DateTime) result) : EMPTY;
     }
 }
