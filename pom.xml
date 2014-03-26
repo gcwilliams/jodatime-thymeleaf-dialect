@@ -4,7 +4,7 @@
   <groupId>uk.co.gwilliams</groupId>
   <artifactId>jodatime-thymeleaf-dialect</artifactId>
   <packaging>jar</packaging>
-  <version>1.1</version>
+  <version>1.2</version>
   <name>jodatime-thymeleaf-dialect</name>
 
   <url>http://maven.apache.org</url>
@@ -67,4 +67,5 @@
       </plugin>
     </plugins>
   </build>
+  
 </project>
