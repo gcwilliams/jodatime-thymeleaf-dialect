@@ -16,7 +16,7 @@
  * 
  */
 
-package gwilliams.jodatime.thymeleaf;
+package uk.co.gwilliams.jodatime.thymeleaf;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
@@ -29,6 +29,8 @@ import org.thymeleaf.TemplateProcessingParameters;
 import org.thymeleaf.context.Context;
 import org.thymeleaf.resourceresolver.IResourceResolver;
 import org.thymeleaf.templateresolver.TemplateResolver;
+
+import uk.co.gwilliams.jodatime.thymeleaf.JodaTimeDialect;
 
 /**
  * The abstract Joda Time dialect test

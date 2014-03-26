@@ -1,13 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   
   <modelVersion>4.0.0</modelVersion>
-  <groupId>gwilliams</groupId>
+  <groupId>uk.co.gwilliams</groupId>
   <artifactId>jodatime-thymeleaf-dialect</artifactId>
   <packaging>jar</packaging>
   <version>1.1</version>
   <name>jodatime-thymeleaf-dialect</name>
 
-  <url>https://github.com/gcwilliams/jodatime-thymeleaf-dialect</url>
+  <url>http://maven.apache.org</url>
 
   <licenses>
     <license>
@@ -34,6 +34,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <scm>
+    <connection>scm:git:git://github.com/gcwilliams/jodatime-thymeleaf-dialect.git</connection>
+    <developerConnection>scm:git:git://github.com/gcwilliams/jodatime-thymeleaf-dialect.git</developerConnection>
+    <url>https://github.com/gcwilliams/jodatime-thymeleaf-dialect</url>
+  </scm>
 
   <build>
     <plugins>

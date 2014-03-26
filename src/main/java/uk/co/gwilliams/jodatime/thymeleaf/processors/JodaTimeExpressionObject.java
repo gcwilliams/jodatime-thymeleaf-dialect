@@ -16,7 +16,7 @@
  * 
  */
 
-package gwilliams.jodatime.thymeleaf.processors;
+package uk.co.gwilliams.jodatime.thymeleaf.processors;
 
 import java.util.Locale;
 

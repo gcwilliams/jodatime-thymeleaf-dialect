@@ -16,7 +16,7 @@
  * 
  */
 
-package gwilliams.jodatime.thymeleaf.processors;
+package uk.co.gwilliams.jodatime.thymeleaf.processors;
 
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormatter;
