@@ -44,8 +44,8 @@
   </dependencies>
 
   <scm>
-    <connection>scm:git:git://github.com/gcwilliams/jodatime-thymeleaf-dialect.git</connection>
-    <developerConnection>scm:git:git://github.com/gcwilliams/jodatime-thymeleaf-dialect.git</developerConnection>
+    <connection>scm:git:https://github.com/gcwilliams/jodatime-thymeleaf-dialect.git</connection>
+    <developerConnection>scm:git:https://github.com/gcwilliams/jodatime-thymeleaf-dialect.git</developerConnection>
     <url>https://github.com/gcwilliams/jodatime-thymeleaf-dialect</url>
   </scm>
 
