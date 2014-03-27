@@ -16,7 +16,7 @@
  * 
  */
 
-package uk.co.gwilliams.jodatime.thymeleaf;
+package uk.co.gcwilliams.jodatime.thymeleaf;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -30,8 +30,8 @@ import org.thymeleaf.dialect.AbstractDialect;
 import org.thymeleaf.dialect.IExpressionEnhancingDialect;
 import org.thymeleaf.processor.IProcessor;
 
-import uk.co.gwilliams.jodatime.thymeleaf.processors.JodaTimeExpressionObject;
-import uk.co.gwilliams.jodatime.thymeleaf.processors.JodaTimeFormatProcessor;
+import uk.co.gcwilliams.jodatime.thymeleaf.processors.JodaTimeExpressionObject;
+import uk.co.gcwilliams.jodatime.thymeleaf.processors.JodaTimeFormatProcessor;
 
 /**
  * The JodaTime ThymeLeaf dialect

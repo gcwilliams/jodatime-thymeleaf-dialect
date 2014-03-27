@@ -16,13 +16,13 @@
  * 
  */
 
-package uk.co.gwilliams.jodatime.thymeleaf.processors;
+package uk.co.gcwilliams.jodatime.thymeleaf.processors;
 
 import org.joda.time.DateTime;
 import org.junit.Assert;
 import org.junit.Test;
 
-import uk.co.gwilliams.jodatime.thymeleaf.AbstractJodaTimeDialectTest;
+import uk.co.gcwilliams.jodatime.thymeleaf.AbstractJodaTimeDialectTest;
 
 import java.util.HashMap;
 import java.util.Locale;
