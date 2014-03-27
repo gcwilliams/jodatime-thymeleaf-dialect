@@ -11,7 +11,7 @@
   <groupId>uk.co.gcwilliams</groupId>
   <artifactId>jodatime-thymeleaf-dialect</artifactId>
   <packaging>jar</packaging>
-  <version>1.3</version>
+  <version>1.4-SNAPSHOT</version>
   <name>jodatime-thymeleaf-dialect</name>
   <description>A JodaTime Thymeleaf dialect for formatting JodaTime DataTime objects</description>
 
