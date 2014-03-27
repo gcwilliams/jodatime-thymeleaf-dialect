@@ -10,6 +10,14 @@ Via attributes
 
     joda:mediumDate="${date}"
 
+#### POM Configuration
+
+    <dependency>
+      <groupId>uk.co.gcwilliams</groupId>
+      <artifactId>jodatime-thymeleaf-dialect</artifactId>
+      <version>1.3</version>
+    </dependency>
+
 #### Example configuration for Spring MVC
     
     <bean id="templateEngine" class="org.thymeleaf.spring3.SpringTemplateEngine">
@@ -17,7 +25,7 @@ Via attributes
       <property name="dialects">
           <set>
               <bean class="org.thymeleaf.spring3.dialect.SpringStandardDialect"></bean>
-              <bean class="gwilliams.jodatime.thymeleaf.JodaTimeDialect"></bean>
+              <bean class="uk.co.gcwilliams.jodatime.thymeleaf.JodaTimeDialect"></bean>
           </set>
       </property>
       ...
