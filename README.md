@@ -1,6 +1,6 @@
 ## JodaTime ThymeLeaf Dialect
 
-#### Basic usage
+#### Basic Usage
 
 Expression syntax with standard dialect
 
@@ -10,7 +10,7 @@ Via attributes
 
     joda:mediumDate="${date}"
 
-#### POM Configuration
+## POM Dependency
 
     <dependency>
       <groupId>uk.co.gcwilliams</groupId>
@@ -18,7 +18,24 @@ Via attributes
       <version>1.3</version>
     </dependency>
 
-#### Example configuration for Spring MVC
+## Download
+
+Avaliable from Maven Central
+
+[Download](http://search.maven.org/#search%7Cga%7C1%7Cjodatime-thymeleaf-dialect)
+
+## Configuration
+
+#### Basic
+
+    TemplateEngine engine = new TemplateEngine();
+    engine.addDialect(new JodaTimeDialect());
+
+    ...
+
+    engine.process("templateName", context);
+
+#### Spring MVC
     
     <bean id="templateEngine" class="org.thymeleaf.spring3.SpringTemplateEngine">
       ...
@@ -68,3 +85,7 @@ Attributes
     joda:shortDateTime="${date}"
     joda:shortTime="${date}"
     joda:isoDateTime="${date}"
+
+## License
+
+GPL Licence - http://www.gnu.org/licenses/gpl-3.0.txt
