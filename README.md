@@ -10,7 +10,7 @@ Via attributes
 
     joda:mediumDate="${date}"
 
-## POM Dependency
+### POM Dependency
 
     <dependency>
       <groupId>uk.co.gcwilliams</groupId>
@@ -18,13 +18,13 @@ Via attributes
       <version>1.3</version>
     </dependency>
 
-## Download
+### Download
 
 Avaliable from Maven Central
 
 [Download](http://search.maven.org/#search%7Cga%7C1%7Cjodatime-thymeleaf-dialect)
 
-## Configuration
+### Configuration
 
 #### Basic
 
@@ -48,7 +48,7 @@ Avaliable from Maven Central
       ...
     </bean>
 
-#### Supported formats
+### Supported formats
 
 Expression Syntax
 
@@ -86,6 +86,6 @@ Attributes
     joda:shortTime="${date}"
     joda:isoDateTime="${date}"
 
-## License
+### License
 
 GPL Licence - http://www.gnu.org/licenses/gpl-3.0.txt
